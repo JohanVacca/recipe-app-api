@@ -10,5 +10,5 @@ RUN mkdir /app
 WORKDIR /app
 COPY ./app /app
 
-RUN adduser -D user #Usuario que solo ejecutara procesos desde el proyecto, por seguridad
+RUN adduser -D user
 USER user
